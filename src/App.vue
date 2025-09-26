@@ -10,3 +10,8 @@ const titulo = ref<string>('Proyecto de vue con typescript')
   <h1>{{titulo}}</h1>
 </template>
 
+<style scoped>
+h1 {
+  color: red;
+}
+</style>
